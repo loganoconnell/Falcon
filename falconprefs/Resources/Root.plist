@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>FalconPrefsCustomCell</string>
+		</dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>FalconCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.falcon</string>
+            <key>key</key>              <string>enabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>icon</key>				<string>enabled.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.falcon/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>FalconCustomSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.falcon</string>
+            <key>key</key>              <string>lockToggles</string>
+            <key>label</key>            <string>Touch ID for LS Toggles</string>
+            <key>icon</key>             <string>locktoggles.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.falcon/saved</string>
+        </dict>
+
+         <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>footerText</key>       <string>Respring to activate changes.</string>
+            <key>footerAlignment</key>  <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>FalconLSController</string>
+            <key>label</key>            <string>Lock Screen</string>
+            <key>icon</key>             <string>lockscreen.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>FalconNCController</string>
+            <key>label</key>            <string>Notification Center</string>
+            <key>icon</key>             <string>notificationcenter.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>FalconSupportController</string>
+            <key>label</key>            <string>Support</string>
+            <key>icon</key>             <string>support.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>respring</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.falcon</string>
+            <key>label</key>            <string>Respring</string>
+            <key>icon</key>             <string>respring.png</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>followLogan</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.falcon</string>
+            <key>label</key>            <string>Follow @logandev22</string>
+            <key>icon</key>             <string>twitter.png</string>
+        </dict>
+
+		<dict>
+        	<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerText</key>		<string>© 2017 Logan O'Connell</string>
+			<key>footerAlignment</key>	<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Falcon</string>
+</dict>
+</plist>
